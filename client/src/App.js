@@ -7,6 +7,7 @@ import {
   createHttpLink,
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
+<Route exact path="/success" component={success} />
 
 import Home from './pages/Home';
 import Detail from './pages/Detail';
